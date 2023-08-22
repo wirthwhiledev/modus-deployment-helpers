@@ -42,7 +42,7 @@ inject-appversion-metadata-tag(){
 
 #html helpers
 find-metadata-tag(){
-    find-metadata-tag "{INSERT HTML CONTENT}" "version")
+    find-metadata-tag "{INSERT HTML CONTENT}" "version"
 
     content=$1;
     searchTarget="<meta property='$2'"
