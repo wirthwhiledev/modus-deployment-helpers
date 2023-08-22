@@ -62,6 +62,6 @@ strindex() {
 }
 
 #Testing 
-heartbeart(){
+heartbeat(){
     echo "Hello World!"
 }
