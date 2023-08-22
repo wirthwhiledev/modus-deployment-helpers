@@ -1,5 +1,4 @@
 #!/bin/bash
-
 #Version
 get-version(){
     version=$( sed -n 's/.*"version":.*"\(.*\)"\(,\)\{0,1\}/\1/p' "./package.json" )
@@ -60,4 +59,9 @@ find-metadata-tag(){
 strindex() { 
   x="${1%%"$2"*}"
   [[ "$x" = "$1" ]] && echo -1 || echo "${#x}"
+}
+
+#Testing 
+heartbeart(){
+    echo "Hello World!"
 }
